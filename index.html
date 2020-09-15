@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WES - willing for English success </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <div id="menu" class="options">
+        <button class="btn" onclick="moveContrary('logoWes1'), moveVideo('logoWes2'), move('optionA'), playVideo('logoWes2')">exercises</button>
+        <button class="btn" onclick="moveContrary('logoWes1'), moveVideo('logoWes3'), move('optionB')">practical lessons</button>
+        <button class="btn" onclick="moveContrary('logoWes1'), moveVideo('logoWes4'), move('optionC')">media</button>
+        <button class="btn" onclick="moveContrary('logoWes1'), moveVideo('logoWes5'), move('optionD')">contact</button>
+    </div>
+
+     <div id="logoWes"> 
+        <img id="logoWes1" src="WES2.png" class="logopicture" alt="">
+        <video id="logoWes2" src="exercises.mp4"  type="mp4" muted="" autoplay= "" style=></video>
+        <video id="logoWes3" src="lessons.mp4"  type="mp4" muted="" autoplay= "" style=></video>
+        <video id="logoWes4" src="media.mp4"  type="mp4" muted="" autoplay= "" style=></video>
+        <video id="logoWes5" src="contact.mp4"  type="mp4" muted="" autoplay= "" style=></video>
+
+         
+     </div>
+
+     <div id="squareBase">
+        <p class="t2">Hey there,<br/> Welcome to our page!</p>
+        <img src="WES3.png" class="logopicture2" alt="">
+        <video src="WhatsApp Video 2020-09-01 at 13.31.33 (1).mp4" class="logovideo" type="mp4" muted="" autoplay= "">
+        
+
+    </div>
+
+    <div id="optionA">
+        <div class="container">
+            
+            <div id="welcome" class="welcome">
+                <p class= "question0"> Welcome to WES' quiz </p>
+            <input id="userName" class="questionName" type="text" value="" placeholder="       What's your name?">
+
+            <button  id="btnNext" onclick="getName('welcomeName')"> start </button>
+            <br>
+            <a id="btnClean" onclick="moveWelcome('welcome1')"> I'm shy </a>
+
+            </div>
+          
+            <div id="welcomeName" class="welcome0">
+                
+                <p id="student"></p>
+                 <button id= "btnNext" onclick="moveWelcome('welcome1')">yeah!</button>
+            </div>
+
+            <div id="welcome1" class="welcome">
+                <p class= "question"> 1) Which expression bellow means "pano pra manga"? </p>
+                        <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome2')">next</button></div>
+            </div>
+            <div id="welcome2" class="welcome">
+                <p class= "question"> 2) Which sentence bellow represents to continue with a action?</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome3')">next</button></div>
+            </div>
+            <div id="welcome3" class="welcome">
+                <p class= "question"> 3) If Amanda cries every time she read the news,..</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome4')">next</button></div>
+            </div>
+            <div id="welcome4" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome5')">next</button></div>
+            </div>
+            <div id="welcome5" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome6')">next</button></div>
+            </div>
+            <div id="welcome6" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome7')">next</button></div>
+            </div>
+            <div id="welcome7" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome8')">next</button></div>
+            </div>
+            <div id="welcome8" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome9')">next</button></div>
+            </div>
+            <div id="welcome9" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome10')">next</button></div>
+            </div>
+            <div id="welcome10" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('result')">resultado</button></div>
+            </div>
+            <div id="result" class="welcome">
+                <p class= "result"> Result</p>
+                <br>
+                    
+                <button id= "btnTry" class="result" onclick="moveWelcome('welcome1')">Again?</button>
+            </div>
+
+            
+
+    </div>
+    </div>
+
+
+    <div id="optionB">
+        <div class="container">
+            
+            <div id="welcome" class="welcome">
+                <p class= "presentation">  Pronto para conversar, expressar opiniões e emoções de forma agradável<br>na língua que você há tanto tempo estuda mas nunca usa?<br>Nessa mesma conversa derrubarei todos os seus tabus sobre o ensino de Inglês<br>e apresentarei a gramática de forma prática e clara como você nunca viu; <br><br> EU faço você falar Inglês!  </p>
+
+            <div id="presentationSquare"><img src="nametag.png" class="" alt=""></div>
+
+            </div>
+          
+            <div id="welcomeName" class="welcome0">
+                
+                <p id="student"></p>
+                 <button id= "btnNext" onclick="moveWelcome('welcome1')">yeah!</button>
+            </div>
+
+            <div id="welcome1" class="welcome">
+                <p class= "question"> 1) Which expression bellow means "pano pra manga"? </p>
+                        <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome2')">next</button></div>
+            </div>
+            <div id="welcome2" class="welcome">
+                <p class= "question"> 2) Which sentence bellow represents to continue with a action?</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome3')">next</button></div>
+            </div>
+            <div id="welcome3" class="welcome">
+                <p class= "question"> 3) If Amanda cries every time she read the news,..</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('welcome4')">next</button></div>
+            </div>
+            <div id="welcome4" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome5')">next</button></div>
+            </div>
+            <div id="welcome5" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome6')">next</button></div>
+            </div>
+            <div id="welcome6" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome7')">next</button></div>
+            </div>
+            <div id="welcome7" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome8')">next</button></div>
+            </div>
+            <div id="welcome8" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome9')">next</button></div>
+            </div>
+            <div id="welcome9" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                    <button id= "btnNext" onclick="moveWelcome('welcome10')">next</button></div>
+            </div>
+            <div id="welcome10" class="welcome">
+                <p class= "question"> 4) The best way to ask about someone's personality is...</p>
+                <br>
+                    <div id="questionNumberOne"><form name="questionNumberOne">
+                     <input type="radio" id="asnwer1a" name="questionOne" value="answer1a">
+                        <label for="answer1a"> Mango chat</label>
+                        <br>
+                     <input type="radio" id="asnwer1b" name="questionOne" value="answer1b">
+                        <label for="answer1b"> Sleeve for thought</label>
+                        <br>
+                    <input type="radio" id="asnwer1c" name="questionOne" value="answer1c">
+                        <label for="answer1c"> Food for thought</label>
+                        <br>
+                    </form>
+                <button id= "btnNext" onclick="moveWelcome('result')">resultado</button></div>
+            </div>
+            <div id="result" class="welcome">
+                <p class= "result"> Result</p>
+                <br>
+                    
+                <button id= "btnTry" class="result" onclick="moveWelcome('welcome1')">Again?</button>
+            </div>
+
+            
+
+    </div>
+            
+    </div>
+       
+
+
+
+
+    <div id="optionC">
+        <div><img class="instagram" src="pngwave.png" class="" alt=""></div>
+    </div>
+    
+
+
+
+
+    <div id="optionD">
+        
+    </div>
+
+<script src="app.js"></script>  
+</body>
+</html>
